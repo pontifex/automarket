@@ -1,0 +1,29 @@
+# Laravel & Composer
+apps/backend/vendor/
+apps/backend/.env
+apps/backend/.env.backup
+apps/backend/.env.production
+apps/backend/storage/*.key
+apps/backend/storage/app/public/*
+apps/backend/storage/framework/cache/*
+apps/backend/storage/framework/sessions/*
+apps/backend/storage/framework/views/*
+apps/backend/storage/logs/*
+apps/backend/bootstrap/cache/*
+apps/backend/.phpunit.result.cache
+
+# Node & Frontend
+apps/frontend/node_modules/
+apps/frontend/dist/
+apps/frontend/.env.local
+apps/frontend/.env.*.local
+apps/backend/public/build/
+apps/backend/public/hot
+
+# Docker & OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.bak
