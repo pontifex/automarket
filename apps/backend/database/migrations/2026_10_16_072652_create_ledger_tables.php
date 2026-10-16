@@ -12,7 +12,7 @@ return new class extends Migration
             $table->uuid('id')->primary();
             $table->string('type', 40); // DEALER_WALLET, ESCROW_HOLDING, PLATFORM_REVENUE, PAYMENT_GATEWAY_SETTLEMENT
             $table->string('currency', 3)->default('PLN');
-            $table->uuid('owner_id')->nullable()->index();
+            $table->string('owner_id', 64)->nullable()->index();
             $table->bigInteger('balance_cents')->default(0);
             $table->timestamps();
 
